@@ -49,6 +49,15 @@ h4{margin:22px 0 6px;font-size:1.05rem;color:var(--green-d)}
 .footer ul{list-style:none;padding:0;margin:0;display:flex;gap:18px;flex-wrap:wrap}
 @media (max-width:760px){.hero{grid-template-columns:1fr}.hero img{order:-1;max-width:220px}.brand img{width:60px;height:60px}}
 table{width:100%;border-collapse:collapse;background:#fff;margin:12px 0 20px;font-size:.95rem}th,td{border:1px solid var(--line);padding:9px 12px;text-align:left;vertical-align:top}thead th{background:var(--green);color:#fff;font-weight:600}.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+.table-wrap{overflow-x:auto}
+.cta{background:var(--green);color:#F4F1E8;border-radius:14px;padding:32px 28px;margin:40px 0 24px;text-align:center}
+.cta h3{color:#fff;margin-top:0}
+.cta p{max-width:620px;margin:0 auto 14px}
+.cta .small{font-size:.9rem}
+.cta .legal-missing{background:#fff}
+.btn{display:inline-block;background:#fff;color:var(--green-d);padding:12px 26px;border-radius:999px;font-weight:600;text-decoration:none}
+.btn:hover{background:var(--sand)}
+.cta a:focus-visible{outline-color:#fff}
 </style>
 </head>
 <body>
@@ -102,8 +111,8 @@ table{width:100%;border-collapse:collapse;background:#fff;margin:12px 0 20px;fon
     <p class="lead">Beratung bedeutet für mich, Zusammenhänge zu verstehen, bevor Lösungen gesucht werden. Ich arbeite mit einem tiefenpsychologischen Verständnis, das nach den Ursprüngen innerer Muster fragt.</p>
     <div class="sub">
       <h3>Tiefenpsychologie nach Andreas Winter</h3>
-      <p>Der Ansatz nach Andreas Winter stellt die Erlebniswelt und unbewusste Wirkfaktoren in den Mittelpunkt.</p>
-      <p><span class="legal-missing">[FACHLICHE PRÜFUNG UND ANGABEN ZUM ANSATZ]</span></p>
+      <p>Der Ansatz nach Andreas Winter stellt die Beziehung zwischen Klient und Berater, die eigene Erlebniswelt und unbewusste Wirkfaktoren in den Mittelpunkt.</p>
+      <p><span class="legal-missing">[FACHLICHE PRÜFUNG UND ANGABEN ZUM ANSATZ ERFORDERLICH]</span></p>
       <h4>Für wen?</h4>
       <ul><li>Menschen, die wiederkehrende Muster in Beziehungen, Arbeit oder Alltag erkennen</li><li>Menschen, die Entscheidungen oder Belastungen besser einordnen möchten</li></ul>
     </div>
@@ -114,16 +123,60 @@ table{width:100%;border-collapse:collapse;background:#fff;margin:12px 0 20px;fon
   <!-- COACHING -->
   <section id="coaching" class="page" aria-labelledby="t-coaching">
     <h2 id="t-coaching">Coaching</h2>
-    <p class="lead">Coaching unterstützt Sie dabei, konkrete Ziele zu klären und selbstbestimmt in Schritten zu erreichen.</p>
+    <p class="lead">Veränderung beginnt beim Ziel, nicht beim Problem.</p>
+
     <div class="sub">
       <h3>Zielorientierte Gesprächsführung</h3>
       <p>Im Mittelpunkt steht ein strukturiertes Gespräch: Wo stehen Sie, wohin möchten Sie, und welche nächsten Schritte sind realistisch?</p>
       <h4>Typische Themen</h4>
       <ul><li>Klärung beruflicher oder persönlicher Ziele</li><li>Umgang mit Veränderungsprozessen</li><li>Stärkung von Selbstwirksamkeit und Entscheidungssicherheit</li></ul>
       <h4>Ablauf</h4>
-      <ul><li>Kennenlerngespräch (kostenfrei, unverbindlich) <span class="legal-missing">[bitte bestätigen]</span></li><li>Zielklärung und Vereinbarung</li><li>Begleitete Sitzungen und Reflexion</li></ul>
+      <ul><li>Kennenlerngespräch <span class="legal-missing">[Kostenfreiheit bestätigen]</span></li><li>Zielklärung und Vereinbarung</li><li>Begleitete Sitzungen und Reflexion</li></ul>
     </div>
-    <p class="note">Coaching ersetzt keine Psychotherapie. Es richtet sich an gesunde Menschen mit konkreten Entwicklungswünschen.</p>
+
+    <div class="sub">
+      <h3>Lösungsorientiertes Coaching</h3>
+      <p>Haben Sie das Gefühl, sich im Kreis zu drehen? Analysieren Sie Herausforderungen immer wieder, ohne einer Lösung näherzukommen? Mein lösungsorientiertes Angebot bricht diesen Kreislauf auf.</p>
+      <p>Gemeinsam richten wir den Blick nach vorne: weg von den Ursachen der Vergangenheit, hin zu Ihren Stärken und konkreten Schritten für die Zukunft.</p>
+
+      <h4>Für wen?</h4>
+      <ul>
+        <li><strong>Berufliche und persönliche Neuorientierung:</strong> wenn Sie Klarheit über Ihre nächsten Schritte suchen.</li>
+        <li><strong>Akute Blockaden und Entscheidungen:</strong> wenn Sie feststecken und eine pragmatische Richtung brauchen.</li>
+        <li><strong>Konflikte und Beziehungsdynamiken:</strong> wenn Sie festgefahrene Situationen privat oder im Team auflösen möchten.</li>
+        <li><strong>Stress- und Krisenbewältigung:</strong> wenn Sie vorhandene Kräfte wieder aktivieren möchten. <span class="legal-missing">[Abgrenzung zur Krisenbegleitung bestätigen]</span></li>
+      </ul>
+
+      <h4>Die Methode: Lösungsfokussierte Kurzberatung (SFBT)</h4>
+      <p>Ich arbeite nach der Lösungsfokussierten Kurzberatung nach Steve de Shazer. Wir verschwenden keine Zeit mit der wiederholten Rekonstruktion von Problemen.</p>
+      <ul>
+        <li><strong>Sie sind der Experte:</strong> Die Lösung für Ihr Anliegen tragen Sie bereits in sich. Ich helfe Ihnen, sie sichtbar zu machen.</li>
+        <li><strong>Fokus auf Ausnahmen:</strong> Wir finden heraus, was schon gut funktioniert, und bauen darauf auf.</li>
+        <li><strong>Kleine, machbare Schritte:</strong> Kleine Fortschritte bringen Bewegung in Ihre Situation.</li>
+      </ul>
+
+      <h4>Ablauf</h4>
+      <div class="table-wrap">
+      <table>
+        <caption class="sr-only">Phasen des lösungsorientierten Coachings</caption>
+        <thead><tr><th scope="col">Phase</th><th scope="col">Was wir tun</th><th scope="col">Ihr Nutzen</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">1. Orientierung</th><td>Wir definieren Ihr Ziel und blicken auf die Frage: Wie sieht Ihr gewünschter Zustand konkret aus?</td><td>Klarheit über Ihren Weg</td></tr>
+          <tr><th scope="row">2. Schatzsuche</th><td>Wir analysieren Ihre Stärken, bisherigen Erfolge und die Momente, in denen das Problem bereits Pause macht.</td><td>Aktivierung Ihrer eigenen Ressourcen</td></tr>
+          <tr><th scope="row">3. Vorwärtsgehen</th><td>Mit Skalierungstechniken brechen wir das Ziel in den nächsten alltagstauglichen Schritt herunter.</td><td>Handlungsfähigkeit im Alltag</td></tr>
+        </tbody>
+      </table>
+      </div>
+    </div>
+
+    <div class="cta">
+      <h3>Bereit für den nächsten Schritt?</h3>
+      <p>Lösungen fühlen sich oft leichter an als Probleme. Schreiben Sie mir, dann klären wir gemeinsam, ob und wie ich Sie unterstützen kann.</p>
+      <p><a class="btn" href="mailto:coaching@hoangvan.de?subject=Anfrage%20Coaching">Kontakt per E-Mail</a></p>
+      <p class="small"><span class="legal-missing">[Erstgespräch: Dauer, Form und Kostenfreiheit bestätigen]</span></p>
+    </div>
+
+    <p class="note">Coaching ersetzt keine Psychotherapie und keine ärztliche Behandlung. Es richtet sich an Menschen mit konkreten Entwicklungswünschen.</p>
   </section>
 
   <!-- TRAINING -->
@@ -169,14 +222,14 @@ table{width:100%;border-collapse:collapse;background:#fff;margin:12px 0 20px;fon
     <h3>Grundhaltung</h3>
     <ul><li>Respekt vor der Eigenverantwortung jedes Menschen</li><li>Ehrlichkeit über Grenzen und Unsicherheiten</li><li>Verbindung von Wissen, Erfahrung und Natur</li></ul>
     <h3>Ausbildung und Lehre</h3>
-    <p><span class="legal-missing">[INHALTE ZU AUSBILDUNG, LEHRTÄTIGKEIT UND LITERATUR]</span></p>
+    <p><span class="legal-missing">[INHALTE ZU AUSBILDUNG, LEHRTÄTIGKEIT UND LITERATUR ERFORDERLICH]</span></p>
   </section>
 
   <!-- ÜBER MICH -->
   <section id="ueber-mich" class="page" aria-labelledby="t-ueber">
     <h2 id="t-ueber">Über mich</h2>
     <p class="lead">Susanne Hoang Van</p>
-    <p><span class="legal-missing">[KURZVORSTELLUNG, QUALIFIKATIONEN, BERUFSERFAHRUNG UND FOTO]</span></p>
+    <p><span class="legal-missing">[KURZVORSTELLUNG, QUALIFIKATIONEN, BERUFSERFAHRUNG UND FOTO ERFORDERLICH]</span></p>
     <p>Kontakt: <a href="mailto:coaching@hoangvan.de">coaching@hoangvan.de</a></p>
   </section>
 
@@ -184,15 +237,15 @@ table{width:100%;border-collapse:collapse;background:#fff;margin:12px 0 20px;fon
   <section id="impressum" class="page" aria-labelledby="t-imp">
     <h2 id="t-imp">Impressum</h2>
     <p><strong>Betreiber und Anbieter:</strong> Susanne Hoang Van</p>
-    <p><span class="legal-missing">[ANSCHRIFT, TELEFON, coaching@hoangvan.de, Gesundheits- & Krankenpflegerin, KAMMER/AUFSICHTSBEHÖRDE, UST-ID FALLS VORHANDEN, VERANTWORTLICH I.S.D. § 18 MStV]</span></p>
+    <p><span class="legal-missing">[ANSCHRIFT, TELEFON, E-MAIL, BERUFSBEZEICHNUNG, KAMMER/AUFSICHTSBEHÖRDE, UST-ID FALLS VORHANDEN, VERANTWORTLICH I.S.D. § 18 MStV – ANGABEN ERFORDERLICH]</span></p>
   </section>
 
   <!-- DATENSCHUTZ -->
   <section id="datenschutz" class="page" aria-labelledby="t-ds">
     <h2 id="t-ds">Datenschutzerklärung</h2>
     <p><strong>Verantwortlicher:</strong> Susanne Hoang Van</p>
-    <p><span class="legal-missing">[ANSCHRIFT UND KONTAKT (coaching@hoangvan.de), HOSTING-ANBIETER, KONTAKTFORMULAR, SERVER-LOGFILES, SPEICHERDAUER, BETROFFENENRECHTE, COOKIES UND EINWILLIGUNGEN, DRITTDIENSTE]</span></p>
-    <p class="note">Die Datenschutzerklärung.</p>
+    <p><span class="legal-missing">[ANSCHRIFT UND KONTAKT, HOSTING-ANBIETER, KONTAKTFORMULAR, SERVER-LOGFILES, SPEICHERDAUER, BETROFFENENRECHTE, COOKIES UND EINWILLIGUNGEN, DRITTDIENSTE – ANGABEN ERFORDERLICH]</span></p>
+    <p class="note">Die Datenschutzerklärung muss vor Veröffentlichung durch eine juristische Fachperson geprüft werden.</p>
   </section>
 
 </main>
